@@ -28,7 +28,7 @@ export default function Eligibility() {
               {criteria.map((criterion, index) => (
                 <div
                   key={index}
-                  className="bg-white rounded-lg sm:rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-4 sm:p-5 md:p-6 flex items-center gap-3 sm:gap-4 border-l-4 border-pink-500 hover:scale-105 transform"
+                  className="bg-white dark:bg-neutral-800 rounded-lg sm:rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-4 sm:p-5 md:p-6 flex items-center gap-3 sm:gap-4 border-l-4 border-pink-500 hover:scale-105 transform"
                 >
                   <div className="shrink-0 w-7 h-7 sm:w-8 sm:h-8 bg-stone-700 rounded-full flex items-center justify-center">
                     <Check
@@ -36,7 +36,7 @@ export default function Eligibility() {
                       strokeWidth={3}
                     />
                   </div>
-                  <p className="text-gray-800 font-medium text-base sm:text-lg">
+                  <p className="font-medium text-base sm:text-lg">
                     {criterion}
                   </p>
                 </div>

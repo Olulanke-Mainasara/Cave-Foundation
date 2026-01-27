@@ -131,7 +131,7 @@ const Banner2 = () => {
   ];
 
   return (
-    <section className="min-h-[500px] sm:min-h-[600px] md:min-h-[700px] xl:h-[90vh] bg-stone-700 overflow-hidden rounded-2xl sm:rounded-3xl md:rounded-4xl relative">
+    <section className="min-h-[500px] sm:min-h-[600px] md:min-h-[700px] xl:h-[90vh] bg-neutral-800 overflow-hidden rounded-2xl sm:rounded-3xl md:rounded-4xl relative">
       {/* Scattered Icons */}
       {icons.map((item, index) => {
         const IconComponent = item.Icon;

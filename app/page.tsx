@@ -10,7 +10,7 @@ import QrCode from "@/components/pages/Home/qrCode";
 
 export default function Home() {
   return (
-    <main className="min-h-screen px-4 md:px-5 space-y-28">
+    <main className="min-h-screen px-4 md:px-5 space-y-28 max-w-[1440px] mx-auto">
       <Hero />
       <Stats />
       <Banner />
