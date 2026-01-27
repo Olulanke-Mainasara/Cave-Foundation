@@ -20,7 +20,7 @@ const ThemeToggler = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
-    <button className="cursor-pointer" onClick={handleThemeChange}>
+    <button className="cursor-pointer mr-5 md:mr-0" onClick={handleThemeChange}>
       {currentTheme === "light" ? <Moon /> : <Sun />}
     </button>
   );
