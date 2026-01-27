@@ -12,7 +12,12 @@ const Navbar = () => {
     <nav className="h-16 bg-background w-full fixed xl:top-5 xl:w-fit z-50 xl:rounded-r-4xl">
       <div className="flex h-full items-center justify-between px-4 md:px-5">
         <div className="flex items-center justify-between xl:justify-start gap-12 w-full">
-          <Image src={logoImg} alt="Logo" className="w-24 h-full" />
+          <Image
+            placeholder="blur"
+            src={logoImg}
+            alt="Logo"
+            className="w-24 h-full"
+          />
 
           {/* Desktop Menu */}
           <NavMenu className="hidden md:block" />

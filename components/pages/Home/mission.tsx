@@ -12,6 +12,7 @@ const Mission = () => {
           {/* Top Right Image */}
           <div className="col-start-2 row-start-1 row-span-2 bg-gray-300 rounded-r-2xl sm:rounded-r-3xl md:rounded-r-4xl overflow-hidden">
             <Image
+              placeholder="blur"
               src={missionImg}
               alt="Creative young woman expressing herself"
               className="h-full w-full object-cover"
@@ -21,6 +22,7 @@ const Mission = () => {
           {/* Left Full Height Image */}
           <div className="col-start-1 row-start-1 row-span-5 bg-gray-300 rounded-tl-2xl rounded-bl-2xl sm:rounded-tl-3xl sm:rounded-bl-3xl md:rounded-tl-4xl md:rounded-bl-4xl overflow-hidden">
             <Image
+              placeholder="blur"
               src={missionImg2}
               alt="Authentic young woman being herself"
               className="h-full w-full object-cover"
@@ -30,6 +32,7 @@ const Mission = () => {
           {/* Bottom Right Image */}
           <div className="col-start-2 row-start-4 row-span-2 bg-gray-300 rounded-r-2xl sm:rounded-r-3xl md:rounded-r-4xl overflow-hidden">
             <Image
+              placeholder="blur"
               src={missionImg3}
               alt="Young woman showcasing her talent"
               className="h-full w-full object-cover"

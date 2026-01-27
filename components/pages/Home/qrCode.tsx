@@ -38,6 +38,7 @@ const QrCode = () => {
       <div className="w-full lg:w-1/2 flex items-center justify-center order-1 lg:order-2">
         <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
           <Image
+            placeholder="blur"
             src={QrCodeImg}
             alt="QR code to apply for CAVE Foundation scholarship"
             className="w-full h-auto rounded-2xl sm:rounded-3xl md:rounded-4xl shadow-lg"

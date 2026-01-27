@@ -14,6 +14,7 @@ const Footer = () => {
 
       <div className="w-full">
         <Image
+          placeholder="blur"
           src={footerImg}
           alt="Four empowered young Nigerian women showcasing diverse talents and styles"
           className="w-full h-auto object-cover"

@@ -66,6 +66,7 @@ export default function Hero() {
           {/* Top Left Corner Image */}
           <div className="absolute top-0 left-0 rounded-br-3xl sm:rounded-br-4xl rounded-tl-3xl sm:rounded-tl-4xl border-r-8 sm:border-r-12 md:border-r-20 border-b-8 sm:border-b-12 md:border-b-20 aspect-square bg-accent border-background dark:border-background w-32 sm:w-40 md:w-48 lg:w-56 xl:w-64 overflow-hidden">
             <Image
+              placeholder="blur"
               src={sideHeroImg}
               alt="Young woman pursuing creative passion"
               className="h-full w-full object-cover"
@@ -75,6 +76,7 @@ export default function Hero() {
           {/* Bottom Right Corner Image */}
           <div className="absolute bottom-0 right-0 rounded-tl-3xl sm:rounded-tl-4xl rounded-br-3xl sm:rounded-br-4xl border-l-8 sm:border-l-12 md:border-l-20 border-t-8 sm:border-t-12 md:border-t-20 aspect-square bg-accent border-background dark:border-background w-32 sm:w-40 md:w-48 lg:w-56 xl:w-64 overflow-hidden">
             <Image
+              placeholder="blur"
               src={sideHeroImg2}
               alt="Young woman in sports activities"
               className="h-full w-full object-cover"
@@ -83,6 +85,7 @@ export default function Hero() {
 
           {/* Main Center Image */}
           <Image
+            placeholder="blur"
             src={mainHeroImg}
             alt="Empowered young Nigerian woman"
             className="h-full w-full object-cover object-center sm:object-left md:object-top xl:object-left"

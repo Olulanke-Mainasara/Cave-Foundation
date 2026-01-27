@@ -48,6 +48,7 @@ const Benefits = () => {
             >
               <div className="mb-5 aspect-4/5 w-full rounded-xl bg-muted sm:mb-6 overflow-hidden">
                 <Image
+                  placeholder="blur"
                   src={feature.image}
                   alt={feature.title}
                   className="h-full object-cover w-full hover:scale-105 duration-300 object-top"
