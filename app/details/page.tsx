@@ -145,7 +145,7 @@ export default function ScholarshipDetails() {
   ];
 
   return (
-    <main className="min-h-screen xl:px-5 max-w-6xl mx-auto">
+    <main className="min-h-screen xl:px-5 max-w-[1440px] mx-auto">
       {/* Header */}
       <section className="bg-pink-400 text-white pb-20 pt-32 rounded-b-[100px] xl:rounded-b-[200px]">
         <div className="max-w-6xl mx-auto text-center">
