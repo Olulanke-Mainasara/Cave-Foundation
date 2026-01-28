@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import type { ComponentProps } from "react";
 import {
   NavigationMenu,
@@ -8,7 +8,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
-} from "@/components/nav/navigation-menu";
+} from "@/components/ui/navigation-menu";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 

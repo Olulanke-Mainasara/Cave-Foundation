@@ -167,17 +167,17 @@ export default function ScholarshipDetails() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl text-center mb-6 sm:mb-8">
               Program <span className="text-pink-400">Overview</span>
             </h2>
-            <div className="flex flex-col md:flex-row md:max-h-[60dvh] xl:max-h-full overflow-hidden rounded-4xl">
+            <div className="flex flex-col md:flex-row overflow-hidden rounded-4xl">
               <Image
                 placeholder="blur"
                 src={detailsImg}
                 alt="3 empowered Black women"
                 className="object-cover md:w-1/2"
               />
-              <div className="md:bg-white dark:bg-neutral-800 p-5 md:w-1/2 flex flex-col gap-4 justify-center xl:text-lg">
+              <div className="md:bg-white dark:bg-neutral-800 p-5 md:w-1/2 flex flex-col gap-4 justify-center xl:text-xl">
                 <p className="leading-relaxed">
                   The <span className="text-pink-400">CAVE</span> Foundation
-                  Scholarship is designed to empower young Nigerian women aged
+                  Scholarship is designed to empower young Nigerian women aged{" "}
                   <span className="text-pink-400">16-22</span> to pursue their
                   passions without financial constraints. We believe that
                   talent, creativity, and dedication deserve support, regardless
@@ -321,7 +321,7 @@ export default function ScholarshipDetails() {
               Program <span className="text-pink-400">Timeline</span>
             </h2>
             <div className="relative">
-              <div className="absolute top-0 bottom-0 left-4 sm:left-6 md:left-1/2 w-0.5 bg-pink-400 hidden sm:block" />
+              <div className="absolute top-1/2 -translate-y-1/2 bottom-0 h-[80%] left-1/2 w-0.5 bg-pink-400" />
               <div className="space-y-8 sm:space-y-12 flex flex-col items-center md:block">
                 {timeline.map((item, index) => (
                   <div
@@ -424,9 +424,9 @@ export default function ScholarshipDetails() {
             </div>
           </div>
         </section>
-      </section>
 
-      <QrCode />
+        <QrCode />
+      </section>
     </main>
   );
 }

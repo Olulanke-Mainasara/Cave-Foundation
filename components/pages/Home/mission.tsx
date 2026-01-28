@@ -44,7 +44,7 @@ const Mission = () => {
       {/* Text Section */}
       <div className="flex justify-center items-center w-full lg:w-1/2">
         <p className="text-4xl md:text-7xl xl:text-7xl font-extralight leading-tight text-center lg:text-left">
-          Be authentic.
+          <span className="text-pink-400">Be</span> authentic.
           <span className="block text-5xl md:text-8xl xl:text-8xl font-serif mt-2 italic">
             Be <span className="text-pink-400">creative</span>.
           </span>

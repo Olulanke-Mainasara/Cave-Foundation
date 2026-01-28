@@ -1,5 +1,6 @@
 import { ArrowUpRight, List } from "lucide-react";
 import Link from "next/link";
+import { Link as TransitionLink } from "next-view-transitions";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -55,8 +56,11 @@ export default function Hero() {
               className="rounded-full text-base shadow-none w-full sm:w-auto"
               size="lg"
               variant="outline"
+              asChild
             >
-              <List className="h-5 w-5" /> Full Details
+              <TransitionLink href={"/details"}>
+                <List className="h-5 w-5" /> Full Details
+              </TransitionLink>
             </Button>
           </div>
         </div>
