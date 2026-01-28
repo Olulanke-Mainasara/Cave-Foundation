@@ -27,7 +27,7 @@ export default function Hero() {
             </Link>
           </Badge>
 
-          <h1 className="mt-6 max-w-[15ch] xl:max-w-[22ch] font-semibold text-4xl md:text-7xl lg:text-8xl xl:text-[5.5rem] leading-[1.2] tracking-[-0.035em]">
+          <h1 className="mt-6 max-w-[15ch] xl:max-w-[22ch] font-semibold text-4xl md:text-7xl lg:text-8xl xl:text-[5rem] leading-[1.2] tracking-[-0.035em]">
             Support for <span className="text-pink-400">Young</span>{" "}
             <span className="text-pink-400">Nigerian</span> Women
           </h1>
