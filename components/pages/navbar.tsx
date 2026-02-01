@@ -3,7 +3,7 @@ import { NavigationSheet } from "@/components/nav/navigation-sheet";
 import Image from "next/image";
 import logoImg from "@/public/logo.png";
 import { Button } from "../ui/button";
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import { ArrowUpRight } from "lucide-react";
 import ThemeToggler from "./theme-toggler";
 

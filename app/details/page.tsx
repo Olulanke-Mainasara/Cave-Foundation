@@ -57,22 +57,22 @@ export default function ScholarshipDetails() {
 
   const timeline = [
     {
-      date: "Jan 1 - Jan 25, 2026",
+      date: "Jan 1 - Feb 20, 2026",
       title: "Application Period",
       description: "Submit your application online",
     },
     {
-      date: "Jan 26 - Feb 5, 2026",
+      date: "Feb 21 - Mar 19, 2026",
       title: "Review Process",
       description: "Applications evaluated by our team",
     },
     {
-      date: "Feb 10, 2026",
+      date: "Mar 20, 2026",
       title: "Winners Announced",
       description: "Two winners notified via email and phone",
     },
     {
-      date: "Feb 15 - Feb 20, 2026",
+      date: "Mar 20 - Mar 25, 2026",
       title: "Fund Disbursement",
       description: "₦500,000 transferred to each winner",
     },
@@ -302,7 +302,7 @@ export default function ScholarshipDetails() {
                 <p className="text-sm sm:text-base leading-relaxed mb-4">
                   This is your money to invest in your dreams. We trust you to
                   use it wisely to advance your passion and skills. There are no
-                  complex requirements or rigid restrictions—just a commitment
+                  complex requirements or rigid restrictions, just a commitment
                   to pursuing excellence in your chosen field.
                 </p>
                 <p className="text-sm sm:text-base leading-relaxed">
